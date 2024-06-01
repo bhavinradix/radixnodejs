@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Robust Blog Management System",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "",
     "start": "node --watch --env-file=.env app.js"
@@ -12,6 +12,15 @@
   "author": "Bhavin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "@sequelize/core": "^7.0.0-alpha.37",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
   }
 }
