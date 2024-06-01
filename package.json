@@ -1,0 +1,17 @@
+{
+  "name": "node_exam",
+  "version": "1.0.0",
+  "description": "Robust Blog Management System",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "test": "",
+    "start": "node --watch --env-file=.env app.js"
+  },
+  "keywords": [],
+  "author": "Bhavin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
